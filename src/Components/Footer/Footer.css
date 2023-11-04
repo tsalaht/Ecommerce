@@ -1,0 +1,15 @@
+.footer_container{
+    border-bottom: 2px solid white;
+}
+@media screen and (max-width: 768px){
+    .footer_container{
+        padding: 10px;
+    }
+    .footer_container ul{
+        display: flex;
+        gap: 15px;
+    }
+    .footer_container ul li{
+        font-size: 15px;
+    }
+}

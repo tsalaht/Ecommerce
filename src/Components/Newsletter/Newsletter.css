@@ -1,0 +1,42 @@
+.box input{
+    border-left: 2px solid red;
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+}
+.box button{
+    padding: 8px;
+    color: white;
+    font-size: 18px ;
+    font-weight: 600;
+    background-color: red;
+}
+.box button:hover{
+    background-color: rgb(190, 1, 1);
+}
+.texth1{
+    position: relative;
+}
+.texth1::before{
+position: absolute;
+content: '';
+height: 2px;
+width: 150px;
+border: 2px solid rgb(224, 11, 11);
+bottom: -40%;
+left: 50%;
+transform: translateX(-50%);
+}
+@media screen and (max-width: 768px){
+    .newletter{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .newletter p{
+        text-align: center;
+    }
+}

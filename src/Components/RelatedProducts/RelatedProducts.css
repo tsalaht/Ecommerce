@@ -1,0 +1,13 @@
+.texth1{
+    position: relative;
+}
+.texth1::before{
+position: absolute;
+content: '';
+height: 2px;
+width: 150px;
+border: 2px solid rgb(224, 11, 11);
+bottom: -40%;
+left: 50%;
+transform: translateX(-50%);
+}
